@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del body */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  
+  /* Contenedor principal */
+  .login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 0.6s ease;
+    text-align: center;
+  }
+  
+  /* Título */
+  .login-container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000DFF;
+  }
+  
+  /* Secciones: ocultas por defecto */
+  .section {
+    display: none;
+    margin-bottom: 1.5rem;
+  }
+  .section.active {
+    display: block;
+  }
+  
+  /* Encabezados de sección */
+  .section h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #000DFF;
+  }
+  
+  /* Párrafos */
+  .section p {
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Selectores */
+  .section select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Botones */
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #000DFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .btn:hover {
+    background: #4B54FF;
+  }
+  
+  /* Animación */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,94 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Contenedor de formulario */
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: auto;
+  }
+  
+  /* Botones */
+  button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Inputs con íconos */
+  .input-group {
+    position: relative;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 2.5rem;
+  }
+  
+  .input-group i {
+    position: absolute;
+    left: 10px;
+    color: #888;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Enlaces */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Centrar el formulario */
+  form {
+    max-width: 350px;
+    margin: 20px auto;
+  }
